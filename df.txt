@@ -1,0 +1,52 @@
+git clone https://gitlab.com/dayanchdev/openbot.git
+    3  ls
+    4  cd openbot/
+    5  ls
+    6  bash install.sh 
+    
+    8  bash openvpn-install.sh 
+    9 
+   10  python3 main.py 
+   11  /.venv activate
+   12  python3 main.py 
+   13  pip install python-telegram-bot --upgrade
+   14  pip3 install python-telegram-bot --upgrade
+   15 
+   16  python3 --version 
+   17  source venv/bin/activate  
+   18 
+   19  pip3 install --force-reinstall python-telegram-bot
+   20  python3 main.py 
+   21  systemctl status openvpn@server.service 
+   22  systemctl restart openvpn@server.service 
+   23  systemctl status openvpn@server.service 
+   24  systemctl restart openbot.service 
+   25  systemctl status openvpn@server.service 
+   26  systemctl restart openvpn@server.service 
+   27  systemctl restart openbot.service 
+   28  systemctl status openbot.service 
+ 
+   32  dpkg -i openvpn_2.4.8-bionic0_amd64.deb 
+   33  systemctl restart openbot.service 
+   34  systemctl restart openvpn@server.service 
+
+   41  pip3 install --force-reinstall python-telegram-bot
+   42  python3 main.py 
+   43  pip3 install python-telegram-bot --upgrade
+   44  pip install python-telegram-bot==13.15
+   45  python3 main.py 
+
+   49  pip3 install python-dotenv
+   
+   56  chmod +x openvpn-install.sh 
+
+   77  python3 main.py 
+   78
+   80  /.install.sh
+   81  chmod +x install.sh 
+
+   83  ./install.sh 
+ 
+   87  dpkg -i openvpn_2.4.8-bionic0_amd64.deb 
+   8
+
